@@ -631,6 +631,7 @@
 /configz
 /confluence
 /conn.php.bak
+/vendor/credentials
 /connz
 /console
 /console/login/LoginForm.jsp
