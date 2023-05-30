@@ -14,6 +14,10 @@ $metadata
 00
 000000000000
 000000000000.cfg
+db/config/
+/db/admin
+/db/admin/system.version
+8081/db/local/startup_log
 000003.log
 000006.log
 000~root~000
