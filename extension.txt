@@ -43,6 +43,11 @@ _logs.zip
 8redstonecreations.zip
 0009-Win7_Win8_Win81_Win10_R282.zip
 9doors.zip
+config.php.old
+config.php.bak
+config.php.zip
+config.php.tar.gz
+common/config.php
 10advancedredstonecreations.zip
 10automaticfarms.zip
 10awesomecommandblockcreations.zip
